@@ -1,0 +1,2 @@
+rootProject.name='MyStack'
+include ':app'
