@@ -1,13 +1,18 @@
 package org.techtown.calculator;
 
-public interface Calculator {
+import android.content.Context;
+import android.widget.Toast;
 
-    public int add(int a, int b);
+public class Calculator {
+    Context context;
 
-    public int subtract(int a, int b) throws UnImplementedException;
+    public Calculator(Context context) {
+        this.context = context;
+    }
 
-    public int multiply(int a, int b) throws UnImplementedException;
-
-    public int divide(int a, int b) throws UnImplementedException;
+    public int add(int a, int b) {
+        Toast.makeText(context, "더하기를 했습니다.", Toast.LENGTH_LONG).show();
+        return a + b;
+    }
 
 }

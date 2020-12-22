@@ -40,7 +40,7 @@
             android:text="파일 이름" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -56,7 +56,7 @@
         android:text="파일 내용" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:ems="10"

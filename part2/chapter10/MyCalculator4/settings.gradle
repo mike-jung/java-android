@@ -1,2 +1,2 @@
-rootProject.name='MyCalculator'
+rootProject.name = "MyCalculator4"
 include ':app'

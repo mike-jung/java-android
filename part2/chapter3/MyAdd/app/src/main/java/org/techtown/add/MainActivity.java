@@ -8,22 +8,23 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    EditText editText;
-    EditText editText2;
-    TextView textView2;
-
     int value05 = 100;
     final int value06 = 100;
     final static int value07 = 100;
+
+    EditText editText;
+    EditText editText2;
+    TextView textView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editText = findViewById(R.id.editText);
-        editText2 = findViewById(R.id.editText2);
+        editText = findViewById(R.id.editTextTextPersonName);
+        editText2 = findViewById(R.id.editTextTextPersonName2);
         textView2 = findViewById(R.id.textView2);
+
     }
 
     public void onButton1Clicked(View v) {
@@ -40,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
         value03 = value03 + value04;
 
         textView2.setText(String.valueOf(value03));
+
+        value03 = value03 + value04;
+        value03 = value03 + value05;
+        value03 = value03 + value06;
+        value03 = value03 + value07;
+        value03 = value03 + MainActivity.value07;
 
     }
 

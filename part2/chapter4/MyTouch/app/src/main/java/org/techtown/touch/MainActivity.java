@@ -16,15 +16,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editText = findViewById(R.id.editText);
-        editText2 = findViewById(R.id.editText2);
+        editText = findViewById(R.id.editTextTextPersonName);
+        editText2 = findViewById(R.id.editTextTextPersonName2);
 
         View view = findViewById(R.id.view);
         view.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
                     float x = event.getX();
                     float y = event.getY();
 
@@ -35,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
     }
 }

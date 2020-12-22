@@ -1,2 +1,2 @@
-rootProject.name='MyStack'
+rootProject.name = "MyStack"
 include ':app'

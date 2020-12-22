@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = findViewById(R.id.imageView);
         imageView2 = findViewById(R.id.imageView2);
-        editText = findViewById(R.id.editText);
+        editText = findViewById(R.id.editTextTextPersonName);
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {

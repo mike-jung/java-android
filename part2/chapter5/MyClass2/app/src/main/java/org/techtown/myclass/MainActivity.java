@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editText = findViewById(R.id.editText);
+        editText = findViewById(R.id.editTextTextPersonName);
         imageView = findViewById(R.id.imageView);
 
     }
