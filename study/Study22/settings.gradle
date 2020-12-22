@@ -1,2 +1,2 @@
-include ':app'
 rootProject.name = "Study22"
+include ':app'

@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SongInfoActivity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.Study25">
+        <activity android:name="org.techtown.study26.SongInfoActivity"></activity>
+        <activity android:name="org.techtown.study26.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

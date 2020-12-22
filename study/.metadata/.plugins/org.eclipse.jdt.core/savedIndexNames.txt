@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Mars\AndroidStudioProjects-Java-Mission\.metadata\.plugins\org.eclipse.jdt.core
-3052138464.index
-3803309674.index

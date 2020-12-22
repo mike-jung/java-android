@@ -12,7 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="#E53935"
-        android:text="엄마" />
+        android:text="엄마"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 
     <Button
         android:id="@+id/button2"
@@ -20,7 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="#43A047"
-        android:text="아빠" />
+        android:text="아빠"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 
     <Button
         android:id="@+id/button3"
@@ -28,5 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="#1E88E5"
-        android:text="오빠" />
+        android:text="오빠"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 </LinearLayout>

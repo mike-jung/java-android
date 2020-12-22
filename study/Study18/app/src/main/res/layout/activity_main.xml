@@ -151,6 +151,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_weight="1"
+                    android:onClick="onButton1Clicked"
                     android:text="저장" />
 
                 <Button
@@ -161,6 +162,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="20dp"
                     android:layout_weight="1"
+                    android:onClick="onButton2Clicked"
                     android:text="닫기" />
 
             </LinearLayout>

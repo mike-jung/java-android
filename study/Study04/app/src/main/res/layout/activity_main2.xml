@@ -12,19 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FB8C00"
-        android:text="김현수" />
+        android:text="김현수"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#8E24AA"
-        android:text="김태희" />
+        android:text="김태희"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#039BE5"
-        android:text="박명길" />
+        android:text="박명길"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add" />
 </LinearLayout>
